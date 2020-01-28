@@ -679,11 +679,11 @@ gridpacklist = {
 'mg_pp_jjaa01j_5f':['dijet diphoton + 0,1 jets 5 flavor scheme','','xqcut = 20, qCut = 30','55.72','1.0','0.236'],
 
 # k-factor computed with aMC@NLO
-'mg_pp_jjaa_5f':['dijet diphoton','','','17.97','1.2','1.0'],
+'mg_pp_jjaa_5f':['dijet diphoton','','','17.97','2.0','1.0'],
 'mg_pp_jjja01j_5f':['photon +jets + 0,1 jets 5 flavor scheme','','xqcut = 20, qCut = 25','4.133e+05','1.0','0.143'],
 
 # k-factor computed with aMC@NLO
-'mg_pp_jjja_5f':['photon +jets','','','1.023e05','1.1','1.0'],
+'mg_pp_jjja_5f':['photon +jets','','','1.023e05','2.0','1.0'],
 'mg_pp_jjaa_4f':['dijet diphoton 4 flavor scheme','','','431.2','1.0','1.0'],
 'mg_pp_bbja_4f':['bbja 4 flavor scheme','','','4679','1.0','1.0'],
 'mg_pp_bbaa01j_4f':['bbaa + 0,1 jets 4 flavor scheme','','xqcut = 25, qCut = 35','5.899','1.0','0.312'],

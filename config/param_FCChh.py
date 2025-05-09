@@ -1980,6 +1980,31 @@ gridpacklist = {
 'mg_pp_tttt_wmlep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020499875940311997', '1.0', '1.0'],
 'mg_pp_tttt_wplep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020581391473430393', '1.0', '1.0'],
 
+#backgrounds for Zy analysis:
+#testers @ 100 TeV for validation
+'mg_pp_lla01j_mhcut_5f_HT_0_100_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_100_300_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_300_500_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_500_100000_100TeV':['TESTER -l+ l- gamma + 0/1 jets at 100 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
+
+# @ 84 TeV
+'mg_pp_lla01j_mhcut_5f_HT_0_100_84TeV':['l+ l- gamma + 0/1 jets at 84 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_100_300_84TeV':['l+ l- gamma + 0/1 jets at 84 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_300_500_84TeV':['l+ l- gamma + 0/1 jets at 84 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_500_100000_84TeV':['l+ l- gamma + 0/1 jets at 84 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
+
+# @ 72 TeV
+'mg_pp_lla01j_mhcut_5f_HT_0_100_72TeV':['l+ l- gamma + 0/1 jets at 72 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_100_300_72TeV':['l+ l- gamma + 0/1 jets at 72 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_300_500_72TeV':['l+ l- gamma + 0/1 jets at 72 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_500_100000_72TeV':['l+ l- gamma + 0/1 jets at 72 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
+
+# @ 120 TeV
+'mg_pp_lla01j_mhcut_5f_HT_0_100_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_100_300_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_300_500_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_500_100000_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
+
 }
 ##Gridpack list for MG5@MC@NLO
 ##     0          1            2                 3           4           5

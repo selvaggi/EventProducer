@@ -917,7 +917,8 @@ gridpacklist = {
 # new samples for analyes for 2025 ESPPU
 
 #ttH(yy) analysis
-'mg_pp_ttaa_semilep_5f_100TeV':['top pair with photon pair, leading order, @ 100 TeV','Semileptonic ttbar, 90 < maa < 175 GeV','No Jet Matching','0.2852','1','1.0'],
+'mg_pp_ttaa_semilep_5f_100TeV':['TESTER - top pair with photon pair, leading order, @ 100 TeV','Semileptonic ttbar, 90 < maa < 175 GeV','No Jet Matching','0.2852','1','1.0'],
+'mg_pp_ttaa_semilep_5f_84TeV':['top pair with photon pair (ATLAS style), leading order, @ 84 TeV','Semileptonic ttbar, 105 < maa < 145 GeV','No Jet Matching','1.0','1','1.0'],
 
 'mg_pp_Vaajj_HF_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV','No Jet Matching','0.0256','1','1.0'],
 

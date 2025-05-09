@@ -805,9 +805,9 @@ gridpacklist = {
               '1', '1', '1', '1'],
 
 #new bbyy signals at different E_CMS - cross-sections are dummy placeholders
-'pw_pp_hh_lambda100_5f_100TeV_SA':['TESTER - pp gg HH 100TeV, kl =1','','','1.0','1.0','1.0'],
-'pw_pp_hh_lambda240_5f_100TeV_SA':['TESTER - pp gg HH 100TeV, kl =2.4','','','1.0','1.0','1.0'],
-'pw_pp_hh_lambda300_5f_100TeV_SA':['TESTER - pp gg HH 100TeV, kl =3','','','1.0','1.0','1.0'],
+'pw_pp_hh_lambda100_5f_100TeV_SA':['pp gg HH 100TeV, kl =1','','','1.0','1.0','1.0'],
+'pw_pp_hh_lambda240_5f_100TeV_SA':['pp gg HH 100TeV, kl =2.4','','','1.0','1.0','1.0'],
+'pw_pp_hh_lambda300_5f_100TeV_SA':['pp gg HH 100TeV, kl =3','','','1.0','1.0','1.0'],
 
 'pw_pp_hh_lambda100_5f_80TeV_SA':['pp gg HH 80TeV, kl =1','Inclusive HH','No Jet Matching','8.16940E-01','1.075363','1.0'],
 'pw_pp_hh_lambda240_5f_80TeV_SA':['pp gg HH 80TeV, kl =2.4','Inclusive HH','No Jet Matching','3.59610E-01','1.075363','1.0'],
@@ -825,7 +825,7 @@ gridpacklist = {
 'mg_pp_jjaa_5f_60TeV':['dijet diphoton','Inclusive','No Jet Matching','9.17','1.2','1.0'],
 'mg_pp_jjaa_5f_80TeV':['dijet diphoton','Inclusive','No Jet Matching','13.46','1.2','1.0'],
 'mg_pp_jjaa_5f_84TeV':['dijet diphoton @ 84 TeV','Inclusive','No Jet Matching','14.34','1.2','1.0'],
-'mg_pp_jjaa_5f_100TeV':['TESTER - dijet diphoton','Inclusive','No Jet Matching','17.96','1.2','1.0'],
+'mg_pp_jjaa_5f_100TeV':['dijet diphoton','Inclusive','No Jet Matching','17.96','1.2','1.0'],
 'mg_pp_jjaa_5f_120TeV':['dijet diphoton','Inclusive','No Jet Matching','22.44','1.2','1.0'],
 
 #new lljj for bb2lMET
@@ -838,7 +838,7 @@ gridpacklist = {
 'mg_pp_h012j_5f_72TeV':['gluon fusion higgs (finite mt) + 0/1/2 jets','@ 72 TeV, inclusive','xqcut = 30, qCut = 45','377.27','3.76','0.383'],
 'mg_pp_h012j_5f_80TeV':['gluon fusion higgs (finite mt) + 0/1/2 jets','@ 80 TeV, inclusive','xqcut = 30, qCut = 45','435.98','3.76','1.'],
 'mg_pp_h012j_5f_84TeV':['gluon fusion higgs (finite mt) + 0/1/2 jets','@ 84 TeV, inclusive','xqcut = 30, qCut = 45','465.79','3.76','1.'],
-'mg_pp_h012j_5f_100TeV':['TESTER - gluon fusion higgs (finite mt) + 0/1/2 jets','@ 100 TeV, inclusive','xqcut = 30, qCut = 45','588.20','3.76','1.'],
+'mg_pp_h012j_5f_100TeV':['gluon fusion higgs (finite mt) + 0/1/2 jets','@ 100 TeV, inclusive','xqcut = 30, qCut = 45','588.20','3.76','1.'],
 'mg_pp_h012j_5f_120TeV':['gluon fusion higgs (finite mt) + 0/1/2 jets','@ 120 TeV, inclusive','xqcut = 30, qCut = 45','748.25','3.76','1.'],
 
 'mg_pp_vbf_h01j_5f_50TeV':['vbf higgs + 0/1 jets',' @ 50 TeV, inclusive','xqcut = 40, qCut = 60','33.78','4.3', '1'],
@@ -846,30 +846,30 @@ gridpacklist = {
 'mg_pp_vbf_h01j_5f_72TeV':['vbf higgs + 0/1 jets',' @ 72 TeV, inclusive','xqcut = 40, qCut = 60','55.14','4.3','0.188'],
 'mg_pp_vbf_h01j_5f_80TeV':['vbf higgs + 0/1 jets',' @ 80 TeV, inclusive','xqcut = 40, qCut = 60','63.23','4.3', '1'],
 'mg_pp_vbf_h01j_5f_84TeV':['vbf higgs + 0/1 jets',' @ 84 TeV, inclusive','xqcut = 40, qCut = 60','67.34','4.3', '1'],
-'mg_pp_vbf_h01j_5f_100TeV':['TESTER - vbf higgs + 0/1 jets',' @ 100 TeV, inclusive','xqcut = 40, qCut = 60','84.06','4.3', '1'],
+'mg_pp_vbf_h01j_5f_100TeV':['vbf higgs + 0/1 jets',' @ 100 TeV, inclusive','xqcut = 40, qCut = 60','84.06','4.3', '1'],
 'mg_pp_vbf_h01j_5f_120TeV':['vbf higgs + 0/1 jets',' @ 120 TeV, inclusive','xqcut = 40, qCut = 60','105.45','4.3', '1'],
 
 'mg_pp_tth01j_5f_60TeV':['higgs associated with top pair + 0/1 jets','@ 60 TeV, inclusive','xqcut = 80, qCut = 120','17.38','1.22','1'],
 'mg_pp_tth01j_5f_72TeV':['higgs associated with top pair + 0/1 jets','@ 72 TeV, inclusive','xqcut = 80, qCut = 120','24.60','1.22','1'],
 'mg_pp_tth01j_5f_80TeV':['higgs associated with top pair + 0/1 jets','@ 80 TeV, inclusive','xqcut = 80, qCut = 120','29.90','1.22','1'],
 'mg_pp_tth01j_5f_84TeV':['higgs associated with top pair + 0/1 jets','@ 84 TeV, inclusive','xqcut = 80, qCut = 120','32.70','1.22','1'],
-'mg_pp_tth01j_5f_100TeV':['TESTER - higgs associated with top pair + 0/1 jets','@ 100 TeV, inclusive','xqcut = 80, qCut = 120','44.55','1.22','1'],
+'mg_pp_tth01j_5f_100TeV':['higgs associated with top pair + 0/1 jets','@ 100 TeV, inclusive','xqcut = 80, qCut = 120','44.55','1.22','1'],
 'mg_pp_tth01j_5f_120TeV':['higgs associated with top pair + 0/1 jets','@ 120 TeV, inclusive','xqcut = 80, qCut = 120', '61.49','1.22','1'],
 
 'mg_pp_vh012j_5f_60TeV':['higgsstrahlung + 0/1/2 jets','@ 60 TeV, inclusive','xqcut = 40, qCut = 60','20.18','1.32','1.0'],
 'mg_pp_vh012j_5f_72TeV':['higgsstrahlung + 0/1/2 jets','@ 72 TeV, inclusive','xqcut = 40, qCut = 60','25.22','1.32','1.0'],
 'mg_pp_vh012j_5f_80TeV':['higgsstrahlung + 0/1/2 jets','@ 80 TeV, inclusive','xqcut = 40, qCut = 60','28.64','1.32','1.0'],
 'mg_pp_vh012j_5f_84TeV':['higgsstrahlung + 0/1/2 jets','@ 84 TeV, inclusive','xqcut = 40, qCut = 60','30.37','1.32','1.0'],
-'mg_pp_vh012j_5f_100TeV':['TESTER - higgsstrahlung + 0/1/2 jets','@ 100 TeV, inclusive','xqcut = 40, qCut = 60','37.43','1.32','1.0'],
+'mg_pp_vh012j_5f_100TeV':['higgsstrahlung + 0/1/2 jets','@ 100 TeV, inclusive','xqcut = 40, qCut = 60','37.43','1.32','1.0'],
 'mg_pp_vh012j_5f_120TeV':['higgsstrahlung + 0/1/2 jets','@ 120 TeV, inclusive','xqcut = 40, qCut = 60','46.25','1.32','1.0'],
 
 #backgrounds to single higgs analyses at various energy points:
-'mg_pp_mumu012j_mhcut_5f_HT_0_100_100TeV':['TESTER - mu+ mu- + 0/1/2 jets @ 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','379.19','1.20','0.697'],
+'mg_pp_mumu012j_mhcut_5f_HT_0_100_100TeV':['mu+ mu- + 0/1/2 jets @ 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','379.19','1.20','0.697'],
 'mg_pp_mumu012j_mhcut_5f_HT_0_100_72TeV':['mu+ mu- + 0/1/2 jets @ 72 TeV','0 < HT < 100','xqcut = 30, qCut = 40','284.85','1.20','0.71'],
 'mg_pp_mumu012j_mhcut_5f_HT_0_100_84TeV':['mu+ mu- + 0/1/2 jets @ 84 TeV','0 < HT < 100','xqcut = 30, qCut = 40','322.68','1.20','1'],
 'mg_pp_mumu012j_mhcut_5f_HT_0_100_120TeV':['mu+ mu- + 0/1/2 jets @ 120 TeV','0 < HT < 100','xqcut = 30, qCut = 40','438.786','1.20','1'],
 
-'mg_pp_mumu012j_mhcut_5f_HT_100_300_100TeV':['TESTER - mu+ mu- + 0/1/2 jets','100 < HT < 300','xqcut = 30, qCut = 40','43.88','1.20','0.34'],
+'mg_pp_mumu012j_mhcut_5f_HT_100_300_100TeV':['mu+ mu- + 0/1/2 jets','100 < HT < 300','xqcut = 30, qCut = 40','43.88','1.20','0.34'],
 'mg_pp_mumu012j_mhcut_5f_HT_100_300_72TeV':['mu+ mu- + 0/1/2 jets @ 72 TeV','100 < HT < 300','xqcut = 30, qCut = 40','30.35','1.20','0.353'],
 'mg_pp_mumu012j_mhcut_5f_HT_100_300_84TeV':['mu+ mu- + 0/1/2 jets @ 84 TeV','100 < HT < 300','xqcut = 30, qCut = 40','36.09','1.20','1'],
 'mg_pp_mumu012j_mhcut_5f_HT_100_300_120TeV':['mu+ mu- + 0/1/2 jets @ 120 TeV','100 < HT < 300','xqcut = 30, qCut = 40','53.5075','1.20','1'],
@@ -894,7 +894,7 @@ gridpacklist = {
 'mg_pp_mumu012j_mhcut_5f_HT_1100_100000_84TeV':['mu+ mu- + 0/1/2 jets @ 84 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','0.1516','1.20','1'],
 'mg_pp_mumu012j_mhcut_5f_HT_1100_100000_120TeV':['mu+ mu- + 0/1/2 jets @ 120 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','0.2803','1.20','1'],
 
-'mg_pp_llll01j_mhcut_5f_HT_0_200_100TeV':['TESTER - Z/gamma* Z/gamma* to 4l + 0/1 jets','0 < HT < 200','xqcut = 40, qCut = 60','0.0492','1.60','0.809'],
+'mg_pp_llll01j_mhcut_5f_HT_0_200_100TeV':['Z/gamma* Z/gamma* to 4l + 0/1 jets','0 < HT < 200','xqcut = 40, qCut = 60','0.0492','1.60','0.809'],
 'mg_pp_llll01j_mhcut_5f_HT_200_500_100TeV':['TESTER -Z/gamma* Z/gamma* to 4l + 0/1 jets','200 < HT < 500','xqcut = 40, qCut = 60','0.000207090','1.60','0.936'],
 'mg_pp_llll01j_mhcut_5f_HT_500_1100_100TeV':['Z/gamma* Z/gamma* to 4l + 0/1 jets','500 < HT < 1100','xqcut = 40, qCut = 60','5.94279320164e-06','1.60','0.949'],
 'mg_pp_llll01j_mhcut_5f_HT_1100_100000_100TeV':['Z/gamma* Z/gamma* to 4l + 0/1 jets','1100 < HT < 100000','xqcut = 40, qCut = 60','1.25839275996e-07','1.60','0.971'],
@@ -917,7 +917,7 @@ gridpacklist = {
 # new samples for analyes for 2025 ESPPU
 
 #ttH(yy) analysis
-'mg_pp_ttaa_semilep_5f_100TeV':['TESTER - top pair with photon pair, leading order, @ 100 TeV','Semileptonic ttbar, 90 < maa < 175 GeV','No Jet Matching','0.2852','1','1.0'],
+'mg_pp_ttaa_semilep_5f_100TeV':['top pair with photon pair, leading order, @ 100 TeV','Semileptonic ttbar, 90 < maa < 175 GeV','No Jet Matching','0.2852','1','1.0'],
 'mg_pp_ttaa_semilep_5f_84TeV':['top pair with photon pair (ATLAS style), leading order, @ 84 TeV','Semileptonic ttbar, 105 < maa < 145 GeV','No Jet Matching','1.0','1','1.0'],
 
 'mg_pp_Vaajj_HF_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV','No Jet Matching','0.0256','1','1.0'],
@@ -1676,11 +1676,11 @@ gridpacklist = {
 'mg_pp_ttaa01j_5f_84TeV': ['ttaa +0/1j', '105 < maa < 145', 'Jet Matching settings T.B.C.', '0.153633071796', '1.0', '1.0'],
 'mg_pp_tth_5f_84TeV': ['ttH, no extra jets', 'Inclusive', 'No Jet Matching', '17.50415', '1.0', '1.0'],
 'mg_pp_tt012j_5f_84TeV': ['top pair + 0/1/2 jets @ 84 TeV','inclusive','xqcut = 60, qCut = 90', '31838.8464905', '1.0', '1.0'],
-'mg_pp_tt012j_5f_100TeV': ['TESTER - top pair + 0/1/2 jets @ 100 TeV','inclusive','xqcut = 60, qCut = 90', '1', '1.0', '1.0'],
+'mg_pp_tt012j_5f_100TeV': ['top pair + 0/1/2 jets @ 100 TeV','inclusive','xqcut = 60, qCut = 90', '1', '1.0', '1.0'],
 'mg_pp_tt_5f_84TeV': ['tt LO no extrajets', '', '', '14787.47', '1.0', '1.0'],
 'mg_pp_tt_5f': ['tt LO no extrajets', '100 TeV', '', '19286.02', '1.0', '1.0'],
 
-'mg_pp_z0123j_4f_100TeV': ['TESTER - z + 0/1/2/3 jets @ 100 TeV','inclusive','xqcut = 30, qCut = 45','5.091e+05','1.20','1.0'],
+'mg_pp_z0123j_4f_100TeV': ['z + 0/1/2/3 jets @ 100 TeV','inclusive','xqcut = 30, qCut = 45','5.091e+05','1.20','1.0'],
 'mg_pp_z0123j_4f_84TeV': ['z + 0/1/2/3 jets @ 84 TeV','inclusive','xqcut = 30, qCut = 45','1.','1.20','1.0'],
 
 'mg_pp_vbf_h_jjlvlv_5f_84TeV':['VBF H WW signal @84 TeV','WW->lvlv, incl taus','No Jet matching','1.0','1','1.0'],
@@ -1983,9 +1983,9 @@ gridpacklist = {
 
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation
-'mg_pp_lla01j_mhcut_5f_HT_0_100_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
-'mg_pp_lla01j_mhcut_5f_HT_100_300_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
-'mg_pp_lla01j_mhcut_5f_HT_300_500_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_0_100_100TeV':['l+ l- gamma + 0/1 jets at 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_100_300_100TeV':['l+ l- gamma + 0/1 jets at 100 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
+'mg_pp_lla01j_mhcut_5f_HT_300_500_100TeV':['l+ l- gamma + 0/1 jets at 100 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
 'mg_pp_lla01j_mhcut_5f_HT_500_100000_100TeV':['TESTER -l+ l- gamma + 0/1 jets at 100 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
 
 # @ 84 TeV
@@ -2005,6 +2005,58 @@ gridpacklist = {
 'mg_pp_lla01j_mhcut_5f_HT_100_300_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.','1.50','1.'],
 'mg_pp_lla01j_mhcut_5f_HT_300_500_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.','1.50','1.'],
 'mg_pp_lla01j_mhcut_5f_HT_500_100000_120TeV':['l+ l- gamma + 0/1 jets at 120 TeV','500 < HT < 100000','xqcut = 30, qCut = 40','1.','1.50','1.'],
+
+# H-> yy backgrounds:
+'mg_pp_aa012j_mhcut_5f_HT_0_100_100TeV':['di-photon + 0/1/2 jets at 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_100_300_100TeV':['di-photon + 0/1/2 jets at 100 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_300_500_100TeV':['di-photon + 0/1/2 jets at 100 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_500_700_100TeV':['di-photon + 0/1/2 jets at 100 TeV','500 < HT < 700','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_700_900_100TeV':['di-photon + 0/1/2 jets at 100 TeV','700 < HT < 900','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_900_1100_100TeV':['di-photon + 0/1/2 jets at 100 TeV','900 < HT < 1100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_1100_100000_100TeV':['di-photon + 0/1/2 jets at 100 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+
+'mg_pp_aa012j_mhcut_5f_HT_0_100_84TeV':['di-photon + 0/1/2 jets at 84 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_100_300_84TeV':['di-photon + 0/1/2 jets at 84 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_300_500_84TeV':['di-photon + 0/1/2 jets at 84 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_500_700_84TeV':['di-photon + 0/1/2 jets at 84 TeV','500 < HT < 700','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_700_900_84TeV':['di-photon + 0/1/2 jets at 84 TeV','700 < HT < 900','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_900_1100_84TeV':['di-photon + 0/1/2 jets at 84 TeV','900 < HT < 1100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_1100_100000_84TeV':['di-photon + 0/1/2 jets at 84 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+
+'mg_pp_aa012j_mhcut_5f_HT_0_100_72TeV':['di-photon + 0/1/2 jets at 72 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_100_300_72TeV':['di-photon + 0/1/2 jets at 72 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_300_500_72TeV':['di-photon + 0/1/2 jets at 72 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_500_700_72TeV':['di-photon + 0/1/2 jets at 72 TeV','500 < HT < 700','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_700_900_72TeV':['di-photon + 0/1/2 jets at 72 TeV','700 < HT < 900','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_900_1100_72TeV':['di-photon + 0/1/2 jets at 72 TeV','900 < HT < 1100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_1100_100000_72TeV':['di-photon + 0/1/2 jets at 72 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+
+'mg_pp_aa012j_mhcut_5f_HT_0_100_120TeV':['di-photon + 0/1/2 jets at 120 TeV','0 < HT < 100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_100_300_120TeV':['di-photon + 0/1/2 jets at 120 TeV','100 < HT < 300','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_300_500_120TeV':['di-photon + 0/1/2 jets at 120 TeV','300 < HT < 500','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_500_700_120TeV':['di-photon + 0/1/2 jets at 120 TeV','500 < HT < 700','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_700_900_120TeV':['di-photon + 0/1/2 jets at 120 TeV','700 < HT < 900','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_900_1100_120TeV':['di-photon + 0/1/2 jets at 120 TeV','900 < HT < 1100','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+'mg_pp_aa012j_mhcut_5f_HT_1100_100000_120TeV':['di-photon + 0/1/2 jets at 120 TeV','1100 < HT < 100000','xqcut = 30, qCut = 40','1.0','2.0','1.0'],
+
+# gg loop contribution:
+'mg_gg_aa01j_mhcut_5f_HT_0_200_100TeV':['TESTER - gluon fusion di-photon + 0/1 jets at 100 TeV','0 < HT < 200','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_200_500_100TeV':['TESTER -gluon fusion di-photon + 0/1 jets at 100 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_500_100000_100TeV':['TESTER -gluon fusion di-photon + 0/1 jets at 100 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+
+'mg_gg_aa01j_mhcut_5f_HT_0_200_84TeV':['gluon fusion di-photon + 0/1 jets at 84 TeV','0 < HT < 200','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_200_500_84TeV':['gluon fusion di-photon + 0/1 jets at 84 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_500_100000_84TeV':['gluon fusion di-photon + 0/1 jets at 84 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+
+'mg_gg_aa01j_mhcut_5f_HT_0_200_72TeV':['gluon fusion di-photon + 0/1 jets at 72 TeV','0 < HT < 200','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_200_500_72TeV':['gluon fusion di-photon + 0/1 jets at 72 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_500_100000_72TeV':['gluon fusion di-photon + 0/1 jets at 72 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+
+'mg_gg_aa01j_mhcut_5f_HT_0_200_120TeV':['gluon fusion di-photon + 0/1 jets at 120 TeV','0 < HT < 200','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_200_500_120TeV':['gluon fusion di-photon + 0/1 jets at 120 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+'mg_gg_aa01j_mhcut_5f_HT_500_100000_120TeV':['gluon fusion di-photon + 0/1 jets at 120 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
+
+
 
 }
 ##Gridpack list for MG5@MC@NLO

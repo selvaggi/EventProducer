@@ -1,0 +1,21 @@
+import model sm-no_b_mass
+define ell = e+ mu+ ta+ e- mu- ta-
+define nu = ve vm vt ve~ vm~ vt~
+generate p p > ell ell nu nu
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+launch DUMMYPROCESS
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set pdlabel lhapdf
+set lhaid 260000
+
+set ebeam1 42000
+set ebeam2 42000
+set maxjetflavor 5
+set dsqrt_shat 2000
+set dsqrt_shatmax 4000
+set use_syst False

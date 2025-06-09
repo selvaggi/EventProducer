@@ -732,6 +732,9 @@ decaylist = {
 'mg_pp_tZj_5f_84TeV':['zeewlep'],
 'mg_pp_tWZj_5f_84TeV':['zee'],
 
+#bkgs to triple H analysis
+'mg_pp_ttbb_4f_84TeV':['tttautau']
+
 }
 
 ##list of decays branching ratios 
@@ -768,6 +771,8 @@ branching_ratios = {
 'zzllll':0.101*0.101, # duplicate of below, ideally to be unified
 'zzlep':0.101*0.101, #both zs to leptons, including taus
 'zeewlep':0.034*0.3259,
+'wtaunu':0.1138,
+'tttautau':0.1138*0.1138,
 
 #stop to top neutralino decays, need to specify one for each possible neutralino mass
 'mChi0p5TeV':1.0,
@@ -1681,7 +1686,7 @@ gridpacklist = {
 'mg_pp_tt_5f': ['tt LO no extrajets', '100 TeV', '', '19286.02', '1.0', '1.0'],
 
 #bkgs for LQ analysis:
-'mg_pp_lvlv_Q_2000_4000_5f_84TeV': ['WW leptonic (including tau)', '2 TeV < Q2 < 4 TeV', 'No jet matching', '1.0', '1.0','1.0'],
+'mg_pp_lvlv_Q_2000_4000_5f_84TeV': ['WW leptonic (including tau)', '2 TeV < Q2 < 4 TeV', 'No jet matching', '8.1249e-03', '1.0','1.0'],
 
 
 'mg_pp_z0123j_4f_100TeV': ['z + 0/1/2/3 jets @ 100 TeV','inclusive','xqcut = 30, qCut = 45','5.091e+05','1.20','1.0'],
@@ -2059,7 +2064,8 @@ gridpacklist = {
 'mg_gg_aa01j_mhcut_5f_HT_200_500_120TeV':['gluon fusion di-photon + 0/1 jets at 120 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
 'mg_gg_aa01j_mhcut_5f_HT_500_100000_120TeV':['gluon fusion di-photon + 0/1 jets at 120 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
 
-
+#backgrounds for triple higgs analysis:
+'mg_pp_ttbb_4f_84TeV':['tt+bb in 4f','pT(b) > 15 GeV and m(bb) > 30 GeV','No jet matching','1.5587e+02','1.41','1.0'], #k-factor from old ttbb sample, TBC?
 
 }
 ##Gridpack list for MG5@MC@NLO

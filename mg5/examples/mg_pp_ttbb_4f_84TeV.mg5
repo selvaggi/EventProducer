@@ -1,0 +1,36 @@
+import model sm
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define top = t t~
+define bot = b b~
+generate p p > top top bot bot
+
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+set lhapdf /afs/cern.ch/work/b/bistapf/lhapdf/LHAPDF-6.1.6/install/bin/lhapdf-config
+
+launch DUMMYPROCESS
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set pdlabel lhapdf
+set lhaid 260000
+
+set ebeam1 42000
+set ebeam2 42000
+
+set ickkw 0
+set bwcutoff 30.0
+
+set ptb 15.0
+set mmbb 30.0
+
+set etaj 5.0
+set etab 5.0
+set etaa 8.0
+set etal 8.0
+
+set maxjetflavor 4
+set use_syst False

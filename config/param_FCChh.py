@@ -1989,6 +1989,19 @@ gridpacklist = {
 'mg_pp_tttt_wmlep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020499875940311997', '1.0', '1.0'],
 'mg_pp_tttt_wplep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020581391473430393', '1.0', '1.0'],
 
+#leptonic 4t with madspin
+'mg_pp_tth_5f_Q_0_1000_84TeV': ['ttH inclusive', '0 < Q2 < 1000', 'No jet matching', '1.3631e+01', '1.0', '1.0'],
+'mg_pp_tth_5f_Q_1000_3000_84TeV': ['ttH inclusive', '1000 < Q2 < 3000', 'No jet matching', '6.3503e+00', '1.0', '1.0'],
+'mg_pp_tth_5f_Q_3000_10000_84TeV': ['ttH inclusive', '3000 < Q2 < 10000', 'No jet matching', '3.1334e-01', '1.0', '1.0'],
+'mg_pp_tth_5f_Q_10000_84000_84TeV': ['ttH inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.8283e-03', '1.0', '1.0'],
+
+#ttH (no extra jets) split in Q bins
+'mg_pp_tttt_wlep_Q_0_1000_5f_84TeV': ['4 tops fully leptonic', '0 < Q2 < 1000', 'No jet matching', '3.1822e-02', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_1000_3000_5f_84TeV': ['4 tops fully leptonic', '1000 < Q2 < 3000', 'No jet matching', '1.3538e+00', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_3000_10000_5f_84TeV': ['4 tops fully leptonic', '3000 < Q2 < 10000', 'No jet matching', '5.8647e-01', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_10000_84000_5f_84TeV': ['4 tops fully leptonic', '10000 < Q2 < 84000', 'No jet matching', '1', '1.0', '1.0'],
+
+
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation
 'mg_pp_lla01j_mhcut_5f_HT_0_100_100TeV':['TESTER - l+ l- gamma + 0/1 jets at 100 TeV','0 < HT < 100','xqcut = 30, qCut = 40','3.9303e+01','1.50','1.'],
@@ -2051,6 +2064,9 @@ gridpacklist = {
 'mg_gg_aa01j_mhcut_5f_HT_0_200_100TeV':['TESTER - gluon fusion di-photon + 0/1 jets at 100 TeV','0 < HT < 200','xqcut = 20, qCut = 30','8.7983e+01','2.0','1.0'],
 'mg_gg_aa01j_mhcut_5f_HT_200_500_100TeV':['TESTER -gluon fusion di-photon + 0/1 jets at 100 TeV','200 < HT < 500','xqcut = 20, qCut = 30','2.5760e-02','2.0','1.0'],
 'mg_gg_aa01j_mhcut_5f_HT_500_100000_100TeV':['TESTER -gluon fusion di-photon + 0/1 jets at 100 TeV','500 < HT < 100000','xqcut = 20, qCut = 30','2.4740e-04','2.0','1.0'],
+#old syntax doesnt work in new MG
+# 'mg_gg_aa01j_mhcut_5f_HT_0_200_v3_100TeV':['TESTER in new MG - gluon fusion di-photon + 0/1 jets at 100 TeV','0 < HT < 200','xqcut = 20, qCut = 30','8.7983e+01','2.0','1.0'],
+'mg_gg_aa_mhcut_5f_HT_0_200_100TeV_v3':['TESTER in new MG - gluon fusion di-photon + 0/1 jets at 100 TeV','0 < HT < 200','xqcut = 20, qCut = 30','8.7983e+01','2.0','1.0'],
 
 'mg_gg_aa01j_mhcut_5f_HT_0_200_84TeV':['gluon fusion di-photon + 0/1 jets at 84 TeV','0 < HT < 200','xqcut = 20, qCut = 30','1.0','2.0','1.0'],
 'mg_gg_aa01j_mhcut_5f_HT_200_500_84TeV':['gluon fusion di-photon + 0/1 jets at 84 TeV','200 < HT < 500','xqcut = 20, qCut = 30','1.0','2.0','1.0'],

@@ -2007,6 +2007,18 @@ gridpacklist = {
 'mg_pp_wwz_5f_Q_3000_10000_84TeV': ['WWZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
 'mg_pp_wwz_5f_Q_10000_84000_84TeV': ['WWZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
 
+'mg_pp_wzz_5f_Q_0_1000_84TeV': ['WZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_1000_3000_84TeV': ['WZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_3000_10000_84TeV': ['WZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_10000_84000_84TeV': ['WZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
+
+'mg_pp_zzz_5f_Q_0_1000_84TeV': ['ZZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_1000_3000_84TeV': ['ZZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_3000_10000_84TeV': ['ZZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_10000_84000_84TeV': ['ZZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
+
+
+
 
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation

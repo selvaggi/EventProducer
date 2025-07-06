@@ -1995,11 +1995,17 @@ gridpacklist = {
 'mg_pp_tth_5f_Q_3000_10000_84TeV': ['ttH inclusive', '3000 < Q2 < 10000', 'No jet matching', '3.1334e-01', '1.0', '1.0'],
 'mg_pp_tth_5f_Q_10000_84000_84TeV': ['ttH inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.8283e-03', '1.0', '1.0'],
 
-#ttH (no extra jets) split in Q bins
-'mg_pp_tttt_wlep_Q_0_1000_5f_84TeV': ['4 tops fully leptonic', '0 < Q2 < 1000', 'No jet matching', '3.1822e-02', '1.0', '1.0'],
-'mg_pp_tttt_wlep_Q_1000_3000_5f_84TeV': ['4 tops fully leptonic', '1000 < Q2 < 3000', 'No jet matching', '1.3538e+00', '1.0', '1.0'],
-'mg_pp_tttt_wlep_Q_3000_10000_5f_84TeV': ['4 tops fully leptonic', '3000 < Q2 < 10000', 'No jet matching', '5.8647e-01', '1.0', '1.0'],
-'mg_pp_tttt_wlep_Q_10000_84000_5f_84TeV': ['4 tops fully leptonic', '10000 < Q2 < 84000', 'No jet matching', '1', '1.0', '1.0'],
+#ttH (no extra jets) split in Q bins - xsec is LHE xsec * BR for 4l channel, decayed in madspin
+'mg_pp_tttt_wlep_Q_0_1000_5f_84TeV': ['4 tops fully leptonic', '0 < Q2 < 1000', 'No jet matching', '3.1822e-02*0.01', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_1000_3000_5f_84TeV': ['4 tops fully leptonic', '1000 < Q2 < 3000', 'No jet matching', '1.3538e+00*0.01', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_3000_10000_5f_84TeV': ['4 tops fully leptonic', '3000 < Q2 < 10000', 'No jet matching', '5.8647e-01*0.01', '1.0', '1.0'],
+'mg_pp_tttt_wlep_Q_10000_84000_5f_84TeV': ['4 tops fully leptonic', '10000 < Q2 < 84000', 'No jet matching', '1.9547e-02*0.01', '1.0', '1.0'],
+
+#triple V split in Q bins
+'mg_pp_wwz_5f_Q_0_1000_84TeV': ['WWZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_1000_3000_84TeV': ['WWZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_3000_10000_84TeV': ['WWZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_10000_84000_84TeV': ['WWZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
 
 
 #backgrounds for Zy analysis:

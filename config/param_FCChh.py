@@ -2002,23 +2002,20 @@ gridpacklist = {
 'mg_pp_tttt_wlep_Q_10000_84000_5f_84TeV': ['4 tops fully leptonic', '10000 < Q2 < 84000', 'No jet matching', '1.9547e-02*0.01', '1.0', '1.0'],
 
 #triple V split in Q bins
-'mg_pp_wwz_5f_Q_0_1000_84TeV': ['WWZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wwz_5f_Q_1000_3000_84TeV': ['WWZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wwz_5f_Q_3000_10000_84TeV': ['WWZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wwz_5f_Q_10000_84000_84TeV': ['WWZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_0_1000_84TeV': ['WWZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '8.0057e-01', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_1000_3000_84TeV': ['WWZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '2.7268e-01', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_3000_10000_84TeV': ['WWZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '2.4215e-02', '1.0', '1.0'],
+'mg_pp_wwz_5f_Q_10000_84000_84TeV': ['WWZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '3.9058e-04', '1.0', '1.0'],
 
-'mg_pp_wzz_5f_Q_0_1000_84TeV': ['WZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wzz_5f_Q_1000_3000_84TeV': ['WZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wzz_5f_Q_3000_10000_84TeV': ['WZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_wzz_5f_Q_10000_84000_84TeV': ['WZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_0_1000_84TeV': ['WZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '2.4524e-01', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_1000_3000_84TeV': ['WZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '8.5575e-02', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_3000_10000_84TeV': ['WZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '8.2786e-03', '1.0', '1.0'],
+'mg_pp_wzz_5f_Q_10000_84000_84TeV': ['WZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.4970e-04', '1.0', '1.0'],
 
-'mg_pp_zzz_5f_Q_0_1000_84TeV': ['ZZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_zzz_5f_Q_1000_3000_84TeV': ['ZZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_zzz_5f_Q_3000_10000_84TeV': ['ZZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
-'mg_pp_zzz_5f_Q_10000_84000_84TeV': ['ZZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
-
-
-
+'mg_pp_zzz_5f_Q_0_1000_84TeV': ['ZZZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '9.3966e-02', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_1000_3000_84TeV': ['ZZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.7889e-02', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_3000_10000_84TeV': ['ZZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.2450e-03', '1.0', '1.0'],
+'mg_pp_zzz_5f_Q_10000_84000_84TeV': ['ZZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.7422e-05', '1.0', '1.0'],
 
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation

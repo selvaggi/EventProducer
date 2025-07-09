@@ -733,7 +733,19 @@ decaylist = {
 'mg_pp_tWZj_5f_84TeV':['zee'],
 
 #bkgs to triple H analysis
-'mg_pp_ttbb_4f_84TeV':['tttautau']
+'mg_pp_ttbb_4f_84TeV':['tttautau'],
+
+'mg_pp_vh_Q_0_500_5f_84TeV': ['haaexcl'],
+'mg_pp_vh_Q_500_1000_5f_84TeV': ['haaexcl'],
+'mg_pp_vh_Q_1000_2000_5f_84TeV': ['haaexcl'],
+'mg_pp_vh_Q_2000_5000_5f_84TeV': ['haaexcl'],
+'mg_pp_vh_Q_5000_84000_5f_84TeV': ['haaexcl'],
+
+'mg_pp_tth_5f_Q_0_1000_84TeV': ['haaexcl', 'hllll'],
+'mg_pp_tth_5f_Q_1000_3000_84TeV': ['haaexcl', 'hllll'],
+'mg_pp_tth_5f_Q_3000_10000_84TeV': ['haaexcl', 'hllll'],
+'mg_pp_tth_5f_Q_10000_84000_84TeV': ['haaexcl', 'hllll'],
+
 
 }
 

@@ -728,7 +728,7 @@ decaylist = {
 
 #bkgs to ttZ(ee) analysis
 'mg_pp_ZZjj_HF_5f_84TeV':['zzlep'], 
-'mg_pp_WZjj_HF_5f_84TeV':['zeewlep'],
+'mg_pp_WZjj_HF_5f_84TeV':['zeewlep', 'wzlllv'],
 'mg_pp_tZj_5f_84TeV':['zeewlep'],
 'mg_pp_tWZj_5f_84TeV':['zee'],
 
@@ -2028,6 +2028,13 @@ gridpacklist = {
 'mg_pp_zzz_5f_Q_1000_3000_84TeV': ['ZZZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.7889e-02', '1.0', '1.0'],
 'mg_pp_zzz_5f_Q_3000_10000_84TeV': ['ZZZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.2450e-03', '1.0', '1.0'],
 'mg_pp_zzz_5f_Q_10000_84000_84TeV': ['ZZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.7422e-05', '1.0', '1.0'],
+
+# ttZ split in Q bins 
+'mg_pp_ttz_5f_Q_0_1000_84TeV': ['ttZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_1000_3000_84TeV': ['ttZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_3000_10000_84TeV': ['ttZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_10000_84000_84TeV': ['ttZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.', '1.0', '1.0'],
+
 
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation

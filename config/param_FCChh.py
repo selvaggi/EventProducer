@@ -708,6 +708,11 @@ decaylist = {
 'mg_pp_tt_HT_200_2000_5f_84TeV': ['blvblv'],
 'mg_pp_tt_HT_2000_100000_5f_84TeV': ['blvblv'],
 
+'mg_pp_ttz_5f_Q_0_1000_84TeV':['ttzlep'],
+'mg_pp_ttz_5f_Q_1000_3000_84TeV':['ttzlep'],
+'mg_pp_ttz_5f_Q_3000_10000_84TeV':['ttzlep'],
+'mg_pp_ttz_5f_Q_10000_84000_84TeV':['ttzlep'],
+
 'mg_pp_ttz01j_5f_84TeV': ['zee'],
 
 'mg_pp_Htohh_mH_300GeV_84TeV': ['hhbbaa','hhbbtata','hhbbbb'],
@@ -741,10 +746,10 @@ decaylist = {
 'mg_pp_vh_Q_2000_5000_5f_84TeV': ['haaexcl'],
 'mg_pp_vh_Q_5000_84000_5f_84TeV': ['haaexcl'],
 
-'mg_pp_tth_5f_Q_0_1000_84TeV': ['haaexcl', 'hllll'],
-'mg_pp_tth_5f_Q_1000_3000_84TeV': ['haaexcl', 'hllll'],
-'mg_pp_tth_5f_Q_3000_10000_84TeV': ['haaexcl', 'hllll'],
-'mg_pp_tth_5f_Q_10000_84000_84TeV': ['haaexcl', 'hllll'],
+'mg_pp_tth_5f_Q_0_1000_84TeV': ['haaexcl', 'hllll', 'hzz', 'hww', 'htautau'],
+'mg_pp_tth_5f_Q_1000_3000_84TeV': ['haaexcl', 'hllll', 'hzz', 'hww', 'htautau'],
+'mg_pp_tth_5f_Q_3000_10000_84TeV': ['haaexcl', 'hllll', 'hzz', 'hww', 'htautau'],
+'mg_pp_tth_5f_Q_10000_84000_84TeV': ['haaexcl', 'hllll', 'hzz', 'hww', 'htautau'],
 
 
 }
@@ -785,6 +790,7 @@ branching_ratios = {
 'zeewlep':0.034*0.3259,
 'wtaunu':0.1138,
 'tttautau':0.1138*0.1138,
+'hzz':2.619E-02,
 
 #stop to top neutralino decays, need to specify one for each possible neutralino mass
 'mChi0p5TeV':1.0,
@@ -2030,10 +2036,10 @@ gridpacklist = {
 'mg_pp_zzz_5f_Q_10000_84000_84TeV': ['ZZZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.7422e-05', '1.0', '1.0'],
 
 # ttZ split in Q bins 
-'mg_pp_ttz_5f_Q_0_1000_84TeV': ['ttZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.', '1.0', '1.0'],
-'mg_pp_ttz_5f_Q_1000_3000_84TeV': ['ttZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.', '1.0', '1.0'],
-'mg_pp_ttz_5f_Q_3000_10000_84TeV': ['ttZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.', '1.0', '1.0'],
-'mg_pp_ttz_5f_Q_10000_84000_84TeV': ['ttZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_0_1000_84TeV': ['ttZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.8264e+01', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_1000_3000_84TeV': ['ttZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.3657e+01', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_3000_10000_84TeV': ['ttZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '6.4159e-01', '1.0', '1.0'],
+'mg_pp_ttz_5f_Q_10000_84000_84TeV': ['ttZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '3.4009e-03', '1.0', '1.0'],
 
 
 #backgrounds for Zy analysis:

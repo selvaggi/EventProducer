@@ -1695,7 +1695,6 @@ gridpacklist = {
 'mg_pp_tautau_HT_2000_100000_5f_84TeV': ['', '', '', '0.00042966', '1.0','1.0'],
 'mg_pp_lvlv_HT_200_2000_5f_84TeV': ['WW leptonic (including tau)', '', '', '7.656941584', '1.0','1.0'],
 'mg_pp_lvlv_HT_2000_100000_5f_84TeV': ['WW leptonic (including tau)', '', '', '0.0067953154478', '1.0','1.0'],
-'mg_pp_tth_5f_84TeV': ['ttH, no extra jets', 'Inclusive', 'No Jet Matching', '1.0', '1.0', '1.0'],
 'mg_pp_ttaa01j_5f_84TeV': ['ttaa +0/1j', '105 < maa < 145', 'Jet Matching settings T.B.C.', '0.153633071796', '1.0', '1.0'],
 'mg_pp_tth_5f_84TeV': ['ttH, no extra jets', 'Inclusive', 'No Jet Matching', '17.50415', '1.0', '1.0'],
 'mg_pp_tt012j_5f_84TeV': ['top pair + 0/1/2 jets @ 84 TeV','inclusive','xqcut = 60, qCut = 90', '31838.8464905', '1.0', '1.0'],

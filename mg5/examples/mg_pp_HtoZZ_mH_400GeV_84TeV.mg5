@@ -1,0 +1,20 @@
+import model ./SME_NLO_linear
+generate g g > h2 > z z [noborn=QCD]
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+launch DUMMYPROCESS
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set ebeam1 42000
+set ebeam2 42000
+set use_syst False
+set mh2 400
+set wh2 Auto
+
+set a2 1
+set b3 0
+set theta 0.001
+

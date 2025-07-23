@@ -2006,11 +2006,11 @@ gridpacklist = {
 'mg_pp_tttt_wmlep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020499875940311997', '1.0', '1.0'],
 'mg_pp_tttt_wplep_Q_10000_84000_5f_84TeV': ['', '', '', '0.0020581391473430393', '1.0', '1.0'],
 
-#ttH (no extra jets) split in Q bins, inclusive
-'mg_pp_tth_5f_Q_0_1000_84TeV': ['ttH inclusive', '0 < Q2 < 1000', 'No jet matching', '1.3631e+01', '1.0', '1.0'],
-'mg_pp_tth_5f_Q_1000_3000_84TeV': ['ttH inclusive', '1000 < Q2 < 3000', 'No jet matching', '6.3503e+00', '1.0', '1.0'],
-'mg_pp_tth_5f_Q_3000_10000_84TeV': ['ttH inclusive', '3000 < Q2 < 10000', 'No jet matching', '3.1334e-01', '1.0', '1.0'],
-'mg_pp_tth_5f_Q_10000_84000_84TeV': ['ttH inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.8283e-03', '1.0', '1.0'],
+#ttH (no extra jets) split in Q bins, inclusive - kfactor calculated to match total xsec used for mg_pp_tth01j_5f_84TeV before
+'mg_pp_tth_5f_Q_0_1000_84TeV': ['ttH inclusive', '0 < Q2 < 1000', 'No jet matching', '1.3631e+01', '1.219', '1.0'],
+'mg_pp_tth_5f_Q_1000_3000_84TeV': ['ttH inclusive', '1000 < Q2 < 3000', 'No jet matching', '6.3503e+00', '1.219', '1.0'],
+'mg_pp_tth_5f_Q_3000_10000_84TeV': ['ttH inclusive', '3000 < Q2 < 10000', 'No jet matching', '3.1334e-01', '1.219', '1.0'],
+'mg_pp_tth_5f_Q_10000_84000_84TeV': ['ttH inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.8283e-03', '1.219', '1.0'],
 
 #leptonic 4t with madspin - xsec is LHE xsec * BR for 4l channel (=1%), decayed in madspin
 'mg_pp_tttt_wlep_Q_0_1000_5f_84TeV': ['4 tops fully leptonic', '0 < Q2 < 1000', 'No jet matching', '3.1822e-04', '1.0', '1.0'],

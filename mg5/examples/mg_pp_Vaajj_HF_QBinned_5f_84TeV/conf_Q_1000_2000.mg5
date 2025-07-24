@@ -1,0 +1,42 @@
+import model sm-no_b_mass
+
+define l+ = e+ mu+ ta+ 
+define vl = ve vm vt
+define l- = e- mu- ta- 
+define vl~ = ve~ vm~ vt~
+
+generate p p > l+ vl a a b  b~ 
+add process p p > l- vl~ a a b b~ 
+add process p p > l- l+ a a b b~ 
+
+add process p p > l+ vl a a c  c~ 
+add process p p > l- vl~ a a c c~ 
+add process p p > l- l+ a a c c~ 
+
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+launch DUMMYPROCESS
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set ebeam1 42000
+set ebeam2 42000
+
+set dsqrt_shat 1000
+set dsqrt_shatmax 2000
+
+set mmaa 105.0
+set mmaamax 145.0
+
+set ptl 20.0
+set etal 6.0
+set ptj 20.0
+set etaj 6.0
+set pta 25.0
+set etaa 4.0
+
+set maxjetflavor 5
+
+set use_syst False

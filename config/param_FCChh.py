@@ -752,6 +752,41 @@ decaylist = {
 'mg_pp_tth_5f_Q_10000_84000_84TeV': ['haaexcl', 'hllll', 'hzz', 'hww', 'htautau'],
 
 
+'mg_pp_HtoZZ_mH_300GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_350GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_400GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_450GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_550GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_600GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_650GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_700GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_750GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_800GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_850GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_900GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_950GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_1000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_1500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_2000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_2500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_3000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_3500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_4000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_4500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_5000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_5500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_6000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_6500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_7000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_7500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_8000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_8500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_9000GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_9500GeV_84TeV': ['zzllll'],
+'mg_pp_HtoZZ_mH_10000GeV_84TeV': ['zzllll'],
+
+
 }
 
 ##list of decays branching ratios 
@@ -787,6 +822,7 @@ branching_ratios = {
 'zzbbmumu':2*0.151*0.034,
 'zzllll':0.101*0.101, # duplicate of below, ideally to be unified
 'zzlep':0.101*0.101, #both zs to leptons, including taus
+'zzlepnotaus':0.0673*0.0673, #both zs to leptons, excluding taus
 'zeewlep':0.034*0.3259,
 'wtaunu':0.1138,
 'tttautau':0.1138*0.1138,
@@ -944,6 +980,12 @@ gridpacklist = {
 'mg_pp_ttaa_semilep_5f_84TeV':['top pair with photon pair (ATLAS style), leading order, @ 84 TeV','Semileptonic ttbar, 105 < maa < 145 GeV','No Jet Matching','1.0','1','1.0'],
 
 'mg_pp_Vaajj_HF_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV','No Jet Matching','0.0256','1','1.0'],
+
+'mg_pp_Vaajj_HF_Q_0_500_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 0 < Q2 < 500 GeV','No Jet Matching','1.0','1','1.0'],
+'mg_pp_Vaajj_HF_Q_500_1000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 500 < Q2 < 1000 GeV','No Jet Matching','1.0','1','1.0'],
+'mg_pp_Vaajj_HF_Q_1000_2000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 1000 < Q2 < 2000 GeV','No Jet Matching','1.0','1','1.0'],
+'mg_pp_Vaajj_HF_Q_2000_5000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 2000 < Q2 < 5000 GeV','No Jet Matching','1.0','1','1.0'],
+'mg_pp_Vaajj_HF_Q_5000_84000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 5000 < Q2 < 84000 GeV','No Jet Matching','1.0','1','1.0'],
 
 #VBF HWW analyses samples
 'mg_pp_vbf_ww_lvlv_5f_84TeV':['VBF WW full process - including H, continuum and interference @ 84 TeV','WW->lvlv, incl taus','No Jet matching','11.87','1','1.0'],
@@ -2211,11 +2253,10 @@ gridpacklist = {
 'mg_pp_uuddssgg_Q_3000_10000_5f_84TeV': ['', '', '', '8714449.3489', '1.0', '1.0'],
 'mg_pp_uuddssgg_Q_10000_30000_5f_84TeV': ['', '', '', '89544.2801201', '1.0', '1.0'],
 'mg_pp_uuddssgg_Q_30000_84000_5f_84TeV': ['', '', '', '76.51875916636', '1.0', '1.0'],
-'mg_pp_ww_lvlv_Q_200_1000_5f_84TeV': ['', '', '', '40.68239904', '1.0', '1.0'],
-'mg_pp_ww_lvlv_Q_1000_3000_5f_84TeV': ['', '', '', '0.7445223345599999', '1.0', '1.0'],
-'mg_pp_ww_lvlv_Q_3000_10000_5f_84TeV': ['', '', '', '0.026500120444799997', '1.0', '1.0'],
-'mg_pp_ww_lvlv_Q_10000_30000_5f_84TeV': ['', '', '', '0.0002433446766432', '1.0', '1.0'],
-'mg_pp_ww_lvlv_Q_30000_84000_5f_84TeV': ['', '', '', '1.8934616333232e-07', '1.0', '1.0'],
+
+#bkg for LQ study
+
+
 }
 ##Gridpack list for MG5@MC@NLO
 ##     0          1            2                 3           4           5

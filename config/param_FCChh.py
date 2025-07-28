@@ -2254,7 +2254,17 @@ gridpacklist = {
 'mg_pp_uuddssgg_Q_10000_30000_5f_84TeV': ['', '', '', '89544.2801201', '1.0', '1.0'],
 'mg_pp_uuddssgg_Q_30000_84000_5f_84TeV': ['', '', '', '76.51875916636', '1.0', '1.0'],
 
-#bkg for LQ study
+#rebinned ttaa for high Q study
+'mg_pp_ttaa_Q_5000_7000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_ttaa_Q_7000_10000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_ttaa_Q_10000_15000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_ttaa_Q_15000_30000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_ttaa_Q_30000_50000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_ttaa_Q_50000_84000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+
+# ? overlaps?
+# 'mg_pp_ttaa_Q_5000_15000_5f_84TeV': ['ttyy(inclusive) at LO, 84 TeV, with mh cut', '105 < mh < 145', 'No jet matching', '1.0', '1.0', '1.0'],
+
 
 
 }

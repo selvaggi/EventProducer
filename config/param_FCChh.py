@@ -2088,6 +2088,13 @@ gridpacklist = {
 'mg_pp_ttw_5f_Q_3000_10000_84TeV': ['ttW @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
 'mg_pp_ttw_5f_Q_10000_84000_84TeV': ['ttW @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
 
+#WZ split in Q bins
+'mg_pp_wz_5f_Q_0_1000_84TeV': ['WZ @ LO, inclusive ', '0 < Q2 < 1000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wz_5f_Q_1000_3000_84TeV': ['WZ @ LO, inclusive', '1000 < Q2 < 3000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wz_5f_Q_3000_10000_84TeV': ['WZ @ LO, inclusive', '3000 < Q2 < 10000', 'No jet matching', '1.0', '1.0', '1.0'],
+'mg_pp_wz_5f_Q_10000_84000_84TeV': ['WZ @ LO, inclusive', '10000 < Q2 < 84000', 'No jet matching', '1.0', '1.0', '1.0'],
+
+
 
 #backgrounds for Zy analysis:
 #testers @ 100 TeV for validation

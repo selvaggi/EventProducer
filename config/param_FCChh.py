@@ -994,11 +994,11 @@ gridpacklist = {
 
 'mg_pp_Vaajj_HF_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV','No Jet Matching','0.0256','1','1.0'],
 
-'mg_pp_Vaajj_HF_Q_0_500_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 0 < Q2 < 500 GeV','No Jet Matching','1.0','1','1.0'],
-'mg_pp_Vaajj_HF_Q_500_1000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 500 < Q2 < 1000 GeV','No Jet Matching','1.0','1','1.0'],
-'mg_pp_Vaajj_HF_Q_1000_2000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 1000 < Q2 < 2000 GeV','No Jet Matching','1.0','1','1.0'],
-'mg_pp_Vaajj_HF_Q_2000_5000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 2000 < Q2 < 5000 GeV','No Jet Matching','1.0','1','1.0'],
-'mg_pp_Vaajj_HF_Q_5000_84000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 5000 < Q2 < 84000 GeV','No Jet Matching','1.0','1','1.0'],
+'mg_pp_Vaajj_HF_Q_0_500_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 0 < Q2 < 500 GeV','No Jet Matching','2.2617e-04','1','1.0'],
+'mg_pp_Vaajj_HF_Q_500_1000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 500 < Q2 < 1000 GeV','No Jet Matching','4.1844e-04','1','1.0'],
+'mg_pp_Vaajj_HF_Q_1000_2000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 1000 < Q2 < 2000 GeV','No Jet Matching','1.1776e-04','1','1.0'],
+'mg_pp_Vaajj_HF_Q_2000_5000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 2000 < Q2 < 5000 GeV','No Jet Matching','1.8897e-05','1','1.0'],
+'mg_pp_Vaajj_HF_Q_5000_84000_5f_84TeV':['V plus photon pair with pair of heavy flavour jets, leading order, @ 84 TeV','bb and cc only, 105 < maa < 145 GeV, 5000 < Q2 < 84000 GeV','No Jet Matching','3.7058e-06','1','1.0'],
 
 #VBF HWW analyses samples
 'mg_pp_vbf_ww_lvlv_5f_84TeV':['VBF WW full process - including H, continuum and interference @ 84 TeV','WW->lvlv, incl taus','No Jet matching','11.87','1','1.0'],

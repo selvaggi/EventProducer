@@ -718,6 +718,13 @@ decaylist = {
 'mg_pp_ttz_5f_Q_3000_10000_84TeV':['ttzlep'],
 'mg_pp_ttz_5f_Q_10000_84000_84TeV':['ttzlep'],
 
+'mg_pp_ttw_5f_Q_0_1000_84TeV':['ttwlep'],
+'mg_pp_ttw_5f_Q_1000_3000_84TeV':['ttwlep'],
+'mg_pp_ttw_5f_Q_3000_10000_84TeV':['ttwlep'],
+'mg_pp_ttw_5f_Q_10000_84000_84TeV':['ttwlep'],
+
+
+
 'mg_pp_ttz01j_5f_84TeV': ['zee'],
 
 'mg_pp_Htohh_mH_300GeV_84TeV': ['hhbbaa','hhbbtata','hhbbbb'],
@@ -823,6 +830,7 @@ branching_ratios = {
 'blvblv':0.110224,
 '4tlep':0.110224*0.110224,
 'ttzlep':0.110224*0.101,
+'ttwlep':0.3259*0.3259*0.3259,
 'zzbbee':2*0.151*0.034,
 'zzbbmumu':2*0.151*0.034,
 'zzllll':0.101*0.101, # duplicate of below, ideally to be unified

@@ -60,7 +60,7 @@ pythiacards_dir  = '/eos/experiment/fcc/hh/utils/pythiacards/'
 fccconfig_dir    = '/eos/experiment/fcc/hh/utils/config/'
 
 ##delphes base card detector: Scenario I or II from v06 onwards, empty is legacy option for earlier productions
-detectors = ['I', 'II', '']
+detectors = ['I', 'II', 'II_isoValid']
 
 ##muom momentum delphes resolution card
 delphescard_mmr='muonMomentumResolution_DETECTOR.tcl' #from fcc_v05 onwards
@@ -2244,11 +2244,11 @@ gridpacklist = {
 'mg_pp_tt_Q_3000_10000_5f_84TeV': ['', '', '', '18.688439599999995', '1.0', '1.0'],
 'mg_pp_tt_Q_10000_30000_5f_84TeV': ['', '', '', '0.04724035977', '1.0', '1.0'],
 'mg_pp_tt_Q_30000_84000_5f_84TeV': ['', '', '', '6.3250307657800006e-06', '1.0', '1.0'],
-'mg_pp_ttaa_Q_0_500_5f_84TeV': ['', '', '', '0.0022357390000000005', '1.0', '1.0'],
-'mg_pp_ttaa_Q_500_1000_5f_84TeV': ['', '', '', '0.08902979999999999', '1.0', '1.0'],
-'mg_pp_ttaa_Q_1000_2000_5f_84TeV': ['', '', '', '0.09358815000000001', '1.0', '1.0'],
-'mg_pp_ttaa_Q_2000_5000_5f_84TeV': ['', '', '', '0.02842385', '1.0', '1.0'],
-'mg_pp_ttaa_Q_5000_84000_5f_84TeV': ['', '', '', '0.0016425993', '1.0', '1.0'],
+'mg_pp_ttaa_Q_0_500_5f_84TeV': ['ttyy production @ LO, 84 TeV', 'Inclusive top decays, 105 < m_yy < 145 GeV', 'No jet matching', '3.2174e-05', '1.0', '1.0'],
+'mg_pp_ttaa_Q_500_1000_5f_84TeV': ['ttyy production @ LO, 84 TeV', 'Inclusive top decays, 105 < m_yy < 145 GeV', 'No jet matching', '1.2343e-02', '1.0', '1.0'],
+'mg_pp_ttaa_Q_1000_2000_5f_84TeV': ['ttyy production @ LO, 84 TeV', 'Inclusive top decays, 105 < m_yy < 145 GeV', 'No jet matching', '1.1588e-02', '1.0', '1.0'],
+'mg_pp_ttaa_Q_2000_5000_5f_84TeV': ['ttyy production @ LO, 84 TeV', 'Inclusive top decays, 105 < m_yy < 145 GeV', 'No jet matching','2.4781e-03', '1.0', '1.0'],
+'mg_pp_ttaa_Q_5000_84000_5f_84TeV': ['ttyy production @ LO, 84 TeV', 'Inclusive top decays, 105 < m_yy < 145 GeV', 'No jet matching', '8.8342e-05', '1.0', '1.0'],
 'mg_pp_vaa_Q_0_500_5f_84TeV': ['', '', '', '0.769968', '1.0', '1.0'],
 'mg_pp_vaa_Q_500_1000_5f_84TeV': ['', '', '', '0.1434464', '1.0', '1.0'],
 'mg_pp_vaa_Q_1000_2000_5f_84TeV': ['', '', '', '0.0376557', '1.0', '1.0'],

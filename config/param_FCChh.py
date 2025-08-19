@@ -2309,6 +2309,11 @@ gridpacklist = {
 #tty with fully leptonic top, and high photon pT
 'mg_pp_tta_5f_wlep_84TeV': ['tty @ LO, fully leptonic', 'pT(y) > 500 GeV, fully leptonic top decays', 'No jet matching', '1.0', '1.0', '1.0'],
 
+'mg_pp_ww_lvlv_Q_200_1000_5f_84TeV': ['', '', '', '40.6154348496', '1.0', '1.0'],
+'mg_pp_ww_lvlv_Q_1000_3000_5f_84TeV': ['', '', '', '0.7421824195200001', '1.0', '1.0'],
+'mg_pp_ww_lvlv_Q_3000_10000_5f_84TeV': ['', '', '', '0.026500120444799997', '1.0', '1.0'],
+'mg_pp_ww_lvlv_Q_10000_30000_5f_84TeV': ['', '', '', '0.0002433446766432', '1.0', '1.0'],
+'mg_pp_ww_lvlv_Q_30000_84000_5f_84TeV': ['', '', '', '1.8897402971088e-07', '1.0', '1.0'],
 
 
 }

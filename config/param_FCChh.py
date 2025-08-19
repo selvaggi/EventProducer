@@ -2254,7 +2254,7 @@ gridpacklist = {
 'mg_pp_vaa_Q_1000_2000_5f_84TeV': ['', '', '', '0.0376557', '1.0', '1.0'],
 'mg_pp_vaa_Q_2000_5000_5f_84TeV': ['', '', '', '0.00802185', '1.0', '1.0'],
 'mg_pp_vaa_Q_5000_84000_5f_84TeV': ['', '', '', '0.000556809', '1.0', '1.0'],
-'mg_pp_vh_Q_0_500_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '15.781099999999999', '1.0', '1.0'],
+'mg_pp_vh_Q_0_500_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '15.781099999999999', '1.31', '1.0'],
 'mg_pp_vh_Q_500_1000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '1.10415', '1.31', '1.0'],
 'mg_pp_vh_Q_1000_2000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '0.110239', '1.31', '1.0'],
 'mg_pp_vh_Q_2000_5000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '0.0103496', '1.31', '1.0'],

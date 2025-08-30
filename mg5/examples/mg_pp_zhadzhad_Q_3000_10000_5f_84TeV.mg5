@@ -1,0 +1,44 @@
+import model sm-no_b_mass
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define ell = e+ mu+ ta+ e- mu- ta-
+define nu =  ve vm vt ve~ vm~ vt~
+define w = w+ w-
+define top = t t~
+define bottom = b b~
+define wpm = w+ w-
+define lepm = ve~ vm~ vt~ e- mu- ta-
+define lepp = ve vm vt e+ mu+ ta+
+define all_p = ve vm vt e+ mu+ ta+ g u c d s b u~ c~ d~ s~ b~
+define v = w z
+
+generate p p > z z
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+launch DUMMYPROCESS
+
+MADSPIN=onshell
+
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set dsqrt_shat 3000
+set dsqrt_shatmax 10000
+set ebeam1 42000
+set ebeam2 42000
+set use_syst False
+set ptl 20.0
+set etal 6.0
+set ptj 20.0
+set etaj 6.0
+set pta 20.0
+set etaa 6.0
+
+decay z > j j
+decay z > j j
+
+done

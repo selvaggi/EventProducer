@@ -1,0 +1,24 @@
+import model sm-no_b_mass
+
+generate p p > ta+ ta- 
+
+output DUMMYPROCESS
+
+######## DELIMITER (!!! NEED THIS LINE !!!) ##################
+
+launch DUMMYPROCESS
+
+set iseed DUMMYSEED
+set nevents DUMMYNEVENTS
+
+set dsqrt_shat 30000
+set dsqrt_shatmax 84000
+
+set ebeam1 42000
+set ebeam2 42000
+
+set maxjetflavor 5
+
+set use_syst False
+
+done

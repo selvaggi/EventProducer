@@ -2645,9 +2645,9 @@ gridpacklist = {
 'mg_pp_tautau_5f_Q_30000_84000_84TeV': ['tautau @ LO', 'Undecayed taus, 30000 < Q < 84000', 'No jet matching', '3.7450e-09', '1.0', '1.0'],
 
 #VBF dihiggs reproduced
-'mg_pp_vbfhh_lambda100_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
-'mg_pp_vbfhh_lambda240_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
-'mg_pp_vbfhh_lambda300_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
+'mg_pp_vbfhh_lambda100_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','No jet matching','5.8542e-02','1.147188','1.0'],
+'mg_pp_vbfhh_lambda240_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','No jet matching','6.1772e-02','1.147188','1.0'],
+'mg_pp_vbfhh_lambda300_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','No jet matching','9.6531e-02','1.147188','1.0'],
 
 }
 ##Gridpack list for MG5@MC@NLO

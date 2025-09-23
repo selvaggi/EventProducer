@@ -2555,10 +2555,10 @@ gridpacklist = {
 'mg_pp_vh_Q_1000_2000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '0.110239', '1.31', '1.0'],
 'mg_pp_vh_Q_2000_5000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '0.0103496', '1.31', '1.0'],
 'mg_pp_vh_Q_5000_84000_5f_84TeV': ['Inclusive VH production @ LO, 84 TeV', 'Inclusive VH decays', 'No jet matching', '0.00029947000000000003', '1.31', '1.0'],
-'mg_pp_zz_llll_Q_200_1000_5f_84TeV': ['', '', '', '0.7513240520000002', '1.31', '1.0'],
-'mg_pp_zz_llll_Q_1000_3000_5f_84TeV': ['', '', '', '0.011196617600000002', '1.0', '1.0'],
-'mg_pp_zz_llll_Q_3000_10000_5f_84TeV': ['', '', '', '0.00038177242500000004', '1.0', '1.0'],
-'mg_pp_zz_llll_Q_10000_84000_5f_84TeV': ['', '', '', '3.395810890000001e-06', '1.0', '1.0'],
+'mg_pp_zz_llll_Q_200_1000_5f_84TeV': ['', '', '', '0.7513240520000002', '1.6', '1.0'],
+'mg_pp_zz_llll_Q_1000_3000_5f_84TeV': ['', '', '', '0.011196617600000002', '1.6', '1.0'],
+'mg_pp_zz_llll_Q_3000_10000_5f_84TeV': ['', '', '', '0.00038177242500000004', '1.6', '1.0'],
+'mg_pp_zz_llll_Q_10000_84000_5f_84TeV': ['', '', '', '3.395810890000001e-06', '1.6', '1.0'],
 
 'mg_pp_bb_Q_200_1000_5f_84TeV': ['', '', '', '1056880.5', '1.0', '1.0'],
 'mg_pp_bb_Q_1000_3000_5f_84TeV': ['', '', '', '11938.141', '1.0', '1.0'],
@@ -2643,6 +2643,11 @@ gridpacklist = {
 'mg_pp_tautau_5f_Q_3000_10000_84TeV': ['tautau @ LO', 'Undecayed taus, 3000 < Q < 10000', 'No jet matching', '1.8147e-03', '1.0', '1.0'],
 'mg_pp_tautau_5f_Q_10000_30000_84TeV': ['tautau @ LO', 'Undecayed taus, 10000 < Q < 30000', 'No jet matching', '1.0604e-05', '1.0', '1.0'],
 'mg_pp_tautau_5f_Q_30000_84000_84TeV': ['tautau @ LO', 'Undecayed taus, 30000 < Q < 84000', 'No jet matching', '3.7450e-09', '1.0', '1.0'],
+
+#VBF dihiggs reproduced
+'mg_pp_vbfhh_lambda100_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
+'mg_pp_vbfhh_lambda240_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
+'mg_pp_vbfhh_lambda300_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','','1.','1.147188','1.0'],
 
 }
 ##Gridpack list for MG5@MC@NLO

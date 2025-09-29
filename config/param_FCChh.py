@@ -2649,6 +2649,15 @@ gridpacklist = {
 'mg_pp_vbfhh_lambda240_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','No jet matching','6.1772e-02','1.147188','1.0'],
 'mg_pp_vbfhh_lambda300_5f_84TeV':['VBF HH (qq->jjHH)','inclusive @ 84 TeV','No jet matching','9.6531e-02','1.147188','1.0'],
 
+'mg_pp_uuddss_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_gg_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_bb_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_cc_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_thadthad_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_tleptlep_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_whadwhad_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+'mg_pp_zhadzhad_PTmin_5000_5f_84TeV': ['', '', '', '1', '1.0', '1.0'],
+
 }
 ##Gridpack list for MG5@MC@NLO
 ##     0          1            2                 3           4           5

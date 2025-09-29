@@ -723,6 +723,10 @@ decaylist = {
 'mg_pp_ttw_5f_Q_3000_10000_84TeV':['ttwlep'],
 'mg_pp_ttw_5f_Q_10000_84000_84TeV':['ttwlep'],
 
+'mg_pp_vbfhh_lambda100_5f_84TeV':['hhbbaa','hhbbtata','hhbbbb'],
+'mg_pp_vbfhh_lambda240_5f_84TeV':['hhbbaa','hhbbtata','hhbbbb'],
+'mg_pp_vbfhh_lambda300_5f_84TeV':['hhbbaa','hhbbtata','hhbbbb'],
+
 
 
 'mg_pp_ttz01j_5f_84TeV': ['zee'],
